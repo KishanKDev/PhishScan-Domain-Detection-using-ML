@@ -7,9 +7,8 @@ Phishing is a type of fraud in which an attacker impersonates a reputable compan
 
 The main goal of this project is  to create a domain authentication system that would detect if a given domain url is legit or fake website created to perform fraud. Multiple ML models will be tested for this problem. A web Interface along with suitable Rest-API's will be created for commercial use.
 
-<div align="center">
-<img src="/Imgs/phising_architecture.jpg" width="75%"/>
-</div>
+![phising_architecture](https://github.com/user-attachments/assets/69d086ba-881b-41d7-8607-271746d5623e)
+
 
 ## Project Workflow
 The project will follow the same approach as used in all ML project. We'll go through different stages of data collection,feature extraction,training and finally deployment of trained model.
@@ -39,8 +38,6 @@ The below mentioned category of features are extracted from the URL data :
 
  All together 18 features are extracted from each url of the dataset.
 
-
-#### (For Further information about the features see the ['Phishing Websites Features.docx'](https://archive.ics.uci.edu/ml/machine-learning-databases/00327/) .
 
 ## Model Training
 
